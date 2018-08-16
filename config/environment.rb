@@ -22,7 +22,7 @@ sql = <<-SQL
   genre TEXT,
   age INTEGER,
   hometown TEXT
-  )
+  );
 SQL
 
 ActiveRecord::Base.connection.execute(sql)
