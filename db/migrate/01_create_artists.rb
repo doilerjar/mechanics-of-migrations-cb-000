@@ -12,7 +12,12 @@ class CreateArtists < ActiveRecord::Migration
   
   # Primary way to write migrations
   def change
-    c
+    create_table :artists do |t|   # Pass the name of table as symbol
+      t.string :name
+      t.string :genre 
+      t.integer :age 
+      t.string :hometown
+    end
   end 
   
 end 
