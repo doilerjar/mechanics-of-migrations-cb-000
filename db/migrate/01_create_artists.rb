@@ -12,7 +12,7 @@ class CreateArtists < ActiveRecord::Migration
   
   # Primary way to write migrations
   def change
-    
+    c
   end 
   
 end 
